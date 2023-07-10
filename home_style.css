@@ -1,0 +1,150 @@
+/* Apply a universal box-sizing rule to simplify layout calculations */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Define some basic styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    max-height: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the headline section */
+  .headline {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .headline h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .headline p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #666;
+  }
+  
+  /* Style the social proof section */
+ 
+  /* Style the photos section */
+  .join {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .join h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .social_sites  {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .social_sites img {
+    max-height: 50px;
+  }
+  
+  /* Style the text content section */
+  .text-content {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .text-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-content nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content nav li {
+    margin: 0 10px;
+  }
+  
+  .footer-content nav a {
+    color: crimson;
+  }
